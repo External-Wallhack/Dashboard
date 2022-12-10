@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Indigo Update</title>
+	<style type="text/css">
+	body
+	{
+		background: #363d47;
+		color: white;
+		font: normal 12px 'Open Sans', sans-serif;
+		margin-top: 20px;
+	}
+
+	h1
+	{
+		display: block;
+		font-size: 2em;
+		-webkit-margin-before: 0.67em;
+		-webkit-margin-after: 0.67em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+		font-weight: bold;
+	}
+
+	ul.countdown
+	{
+		list-style: none;
+		margin: 75px 0;
+		padding: 0;
+		display: block;
+		text-align: center;
+	}
+
+	ul.countdown li
+	{
+		display: inline-block;
+	}
+
+	ul.countdown li span
+	{
+		font-size: 80px;
+		font-weight: 300;
+		line-height: 80px;
+	}
+
+	ul.countdown li p
+	{
+		color: #a7abb1;
+		font-size: 14px;
+	}
+
+	p
+	{
+		display: block;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+	
+	.btn 
+	{
+		border-width: 2px;
+		text-decoration: none;
+	}
+	
+	.btn-primary:hover
+	{
+		color: #ffffff;
+		background-color: #28415b;
+		border-color: #253c54;
+	}
+	.btn-primary:active,
+	.btn-primary.active,
+	.open > .dropdown-toggle.btn-primary {
+	  color: #ffffff;
+	  background-color: #28415b;
+	  border-color: #253c54;
+	}
+	.btn-primary:active:hover,
+	.btn-primary.active:hover,
+	.open > .dropdown-toggle.btn-primary:hover,
+	.btn-primary:active:focus,
+	.btn-primary.active:focus,
+	.open > .dropdown-toggle.btn-primary:focus,
+	.btn-primary:active.focus,
+	.btn-primary.active.focus,
+	.open > .dropdown-toggle.btn-primary.focus {
+	  color: #ffffff;
+	  background-color: #1d2f43;
+	  border-color: #101b26;
+	}
+	.btn-primary:active,
+	.btn-primary.active,
+	.open > .dropdown-toggle.btn-primary {
+	  background-image: none;
+	}
+	.btn-primary.disabled:hover,
+	.btn-primary[disabled]:hover,
+	fieldset[disabled] .btn-primary:hover,
+	.btn-primary.disabled:focus,
+	.btn-primary[disabled]:focus,
+	fieldset[disabled] .btn-primary:focus,
+	.btn-primary.disabled.focus,
+	.btn-primary[disabled].focus,
+	fieldset[disabled] .btn-primary.focus {
+	  background-color: #375a7f;
+	  border-color: #375a7f;
+	}
+	.btn-primary .badge {
+	  color: #375a7f;
+	  background-color: #ffffff;
+	}
+	.btn-primary
+	{
+		color: #ffffff;
+		background-color: #375a7f;
+		border-color: #375a7f;
+	}
+	.btn
+	{
+		display: inline-block;
+		margin-bottom: 0;
+		font-weight: normal;
+		text-align: center;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		background-image: none;
+		border: 1px solid transparent;
+		white-space: nowrap;
+		padding: 10px 15px;
+		font-size: 15px;
+		line-height: 1.42857143;
+		border-radius: 4px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	</style>
+</head>
+
+<body>
+	
+	<h1 align="center" style="margin-top:150px;">%INFO%</h1>
+	
+	<ul class="countdown">
+	<li>
+		<span class="days">%COUNT%</span>
+		<p class="days_ref">Всего уникальных версий</p>
+		<a href="?update=%USER_ID%&download=ok" class="btn btn-primary btn-sm">скачать</a>
+	</li>
+</ul>
+	
+</body>
+
+</html>
